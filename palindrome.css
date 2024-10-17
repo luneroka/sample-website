@@ -1,0 +1,89 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 20px;
+}
+
+body {
+    background-image: linear-gradient(90deg, #0D293D, #0E7467);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.checker {
+    width: 600px;
+    padding: 2rem;
+    border: 1px solid;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text-input {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+#check-btn {
+    background-image: linear-gradient(35deg, #270337, #657DC4);
+    color: white;
+    border-radius: 8px;
+    width: 50%;
+    height: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+#result {
+    margin: 1rem;
+}
+
+#instructions {
+    max-width: 500px;
+    background-color: #ffffff;
+    margin: 2rem;
+    border-radius: 10px;
+    color: black;
+    padding: 0.5rem;
+    line-height: 1.5;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 42px;
+    position: relative;
+}
+
+#bulb {
+    width: 32px;
+    height: 32px;
+    color: #ecd475;
+    margin-right: 0.5rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
